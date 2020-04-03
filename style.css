@@ -1,0 +1,45 @@
+*{
+	padding-right:85px;
+	margin:0px;
+}
+.container{
+	background-color: rgba(250, 191, 71, 0.5);
+	padding: 30px;
+	width: 1100px;
+	display: flex;
+	
+
+}
+.leftside h2{
+	color:tomato;
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: sans-serif;
+	width:50%;
+	
+	 
+}
+.rightside{
+	float:left;
+	width:50%;
+	padding-right:46px;
+
+	}
+table,th,td{
+	border:2px solid black;
+	border-collapse: collapse;
+}
+
+th{
+	background-color: rgb(60, 179, 113, 0.5);
+}
+td,th{
+	padding: 10px;
+}
+.rightside caption{
+	color:tomato;
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}

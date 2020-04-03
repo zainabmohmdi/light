@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Corona</title>
+
+	</head>
+	<body>
+		<div class="container">
+			<div id="left" class="lelftside">
+				<h2>Registration form</h2><br>
+					<form>
+						<label for="fname">First name:</label><br>
+						<input type="text" id="fname" name="fname" size="20" placeholder="Name" maxlength="20" required><br><br>
+
+						<label for="Lname">Last name:</label><br>
+						<input type="text" id="Lname" name="Lname"
+						size="20" placeholder="last name"
+						maxlength="20" required><br><br>
+
+						<label for="email">Email:</label><br>
+						<input type="email" id="email" name="email" value="" size="20" placeholder="Email" required><br><br>
+
+						<label for="age">Age:</label><br>
+						<input type="number" id="age" name="age" size="7" min="15" max="30" required><br><br>
+
+						<label for="phone">Mobile #:</label><br>
+						<input type="tel" id="phone" name="phone" size="20" placeholder="+92.." required><br><br>
+						<input type="button" onclick="addRow();" value="Add">
+					</form>
+
+
+					
+			</div>
+			<div class="rightside">
+				<caption>Students list</caption>
+				<table id="studentList">	
+					<tr>
+						<th>First name</th>
+						<th>Last name</th>
+						<th>Email</th>
+						<th>Age</th>
+						<th>Mobile#</th>
+					</tr>
+					<tr>
+						<td>Sema</td>
+						<td>Sharifi</td>
+						<td>sharifi@gmail.com</td>
+						<td>20</td>
+						<td>03345590486</td>
+					</tr>
+					<tr>
+						<td>Gulsoom</td>
+						<td>khan</td>
+						<td>gulsoomkhan@gmail.com</td>
+						<td>23</td>
+						<td>03040447893</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	
+	</body>
+
+</html>
